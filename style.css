@@ -1,0 +1,124 @@
+/* Global Reset */
+html body {
+  margin: 0px;
+  padding: 0px;
+}
+
+/* Navbar */
+
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: yellow;
+}
+
+.navlinks {
+  width: 50%;
+  display: flex;
+  justify-content: end;
+}
+
+.navlink {
+  text-decoration: none;
+  padding: 5%;
+  color: white;
+  background-color: black;
+}
+
+.logo {
+  width: 50%;
+}
+
+/* Banner */
+
+.banner-container {
+  display: flex;
+  justify-content: center;
+}
+
+.hero-img {
+  width: 100%;
+}
+
+h1 {
+  text-align: center;
+  background-color: lightcoral;
+  margin: 0;
+}
+
+/* Greeting */
+
+#greeting {
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  background-color: lightgray;
+}
+
+.img-container {
+  width: 50%;
+}
+
+.img-container img {
+  width: 100%;
+  border: solid 2px;
+  border-color: black;
+}
+
+.greeting {
+  padding: 20px;
+  background-color: white;
+}
+
+/* Projects */
+#projects {
+  background-color: yellow;
+  margin: 0px;
+}
+
+#projects {
+  padding: 3rem;
+}
+
+ul {
+  margin: 0;
+}
+
+/* About Me */
+#about {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 3rem;
+  background-color: lightcoral;
+}
+
+#about img {
+  width: 300px;
+  border: solid 3px black;
+}
+
+#about div {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  background-color: white;
+  padding: 2rem;
+  border: dotted 3px black;
+}
+
+/* Footer */
+footer {
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+
+footer a {
+  color: white;
+}
