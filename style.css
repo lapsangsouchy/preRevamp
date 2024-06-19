@@ -8,26 +8,45 @@ html body {
 
 nav {
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content: space-between;
+  align-content: center;
+  height: 70px;
   background-color: yellow;
+  margin: 0;
 }
 
 .navlinks {
-  width: 50%;
+  width: 100%;
+  height: 100%;
   display: flex;
   justify-content: end;
+  flex-wrap: wrap;
+  align-content: center;
+  margin: 0;
 }
 
 .navlink {
+  display: flex;
+  justify-content: center;
+  align-content: center;
   text-decoration: none;
   padding: 5%;
   color: white;
   background-color: black;
 }
 
+.navlink div {
+  height: 100%;
+  width: 100%;
+  text-align: center;
+}
+
+.logo-container {
+  align-self: center;
+}
+
 .logo {
-  width: 50%;
+  width: 70%;
 }
 
 /* Banner */
@@ -89,6 +108,8 @@ h1 {
 
 ul {
   margin: 0;
+  background-color: white;
+  padding: 2rem;
 }
 
 /* About Me */
@@ -108,7 +129,8 @@ ul {
 #about div {
   display: flex;
   flex-direction: row-reverse;
-  justify-content: center;
+  justify-content: space-between;
+  align-content: center;
   background-color: white;
   padding: 2rem;
   border: dotted 3px black;
